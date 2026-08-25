@@ -5,6 +5,8 @@ resources in an account. It runs locally, uses the AWS CLI profiles you already
 have, and discovers resources through **AWS Resource Explorer** rather than
 calling dozens of per-service list APIs.
 
+![](image.png)
+
 - **Uses your existing AWS CLI profiles.** Pick one in the settings drawer. No
   sign-in, no identity provider, no access keys to paste, nothing to deploy to
   your account.

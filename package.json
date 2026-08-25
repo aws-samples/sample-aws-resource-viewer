@@ -1,0 +1,47 @@
+{
+  "name": "aws-resource-viewer",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Single-page AWS Resource Viewer using local AWS CLI profiles and AWS Resource Explorer discovery",
+  "main": "server-v1.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server-v1.js",
+    "sync-icons": "node scripts/sync-aws-icons.js",
+    "sync-icons:latest": "node scripts/sync-aws-icons.js --latest",
+    "verify-icons": "node scripts/sync-aws-icons.js --check"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@aws-sdk/client-acm": "3.1111.0",
+    "@aws-sdk/client-bedrock-agentcore-control": "3.1111.0",
+    "@aws-sdk/client-cloudformation": "3.1111.0",
+    "@aws-sdk/client-cloudfront": "3.1111.0",
+    "@aws-sdk/client-cloudwatch": "3.1111.0",
+    "@aws-sdk/client-cloudwatch-logs": "3.1111.0",
+    "@aws-sdk/client-dynamodb": "3.1111.0",
+    "@aws-sdk/client-ec2": "3.1111.0",
+    "@aws-sdk/client-ecr": "3.1111.0",
+    "@aws-sdk/client-ecs": "3.1111.0",
+    "@aws-sdk/client-efs": "3.1111.0",
+    "@aws-sdk/client-eks": "3.1111.0",
+    "@aws-sdk/client-elastic-load-balancing-v2": "3.1111.0",
+    "@aws-sdk/client-elasticache": "3.1111.0",
+    "@aws-sdk/client-eventbridge": "3.1111.0",
+    "@aws-sdk/client-iam": "3.1111.0",
+    "@aws-sdk/client-kms": "3.1111.0",
+    "@aws-sdk/client-lambda": "3.1111.0",
+    "@aws-sdk/client-opensearch": "3.1111.0",
+    "@aws-sdk/client-rds": "3.1111.0",
+    "@aws-sdk/client-resource-explorer-2": "3.1111.0",
+    "@aws-sdk/client-secrets-manager": "3.1111.0",
+    "@aws-sdk/client-sfn": "3.1111.0",
+    "@aws-sdk/client-sns": "3.1111.0",
+    "@aws-sdk/client-sqs": "3.1111.0",
+    "@aws-sdk/client-ssm": "3.1111.0",
+    "@aws-sdk/credential-providers": "3.1111.0",
+    "express": "5.2.1"
+  }
+}

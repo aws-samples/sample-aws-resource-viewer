@@ -1,0 +1,14 @@
+AWS Resource Viewer
+
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+---
+
+This product bundles AWS Architecture Icons, which are provided by Amazon Web
+Services under the terms published at https://aws.amazon.com/architecture/icons/.
+
+The icons in public/icons/ are vendored, unmodified, from the official AWS
+Architecture Icons asset package by scripts/sync-aws-icons.js. The exact release
+and per-file integrity hashes are recorded in scripts/aws-icons.lock.json. The
+icons are used under AWS's icon usage terms; refer to the AWS Architecture Icons
+page for the current terms and permitted uses.
